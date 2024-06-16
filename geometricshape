@@ -1,0 +1,43 @@
+public interface geometricShape {
+    double calculateArea();
+    double calculatePerimeter();
+    void display();
+}
+
+public class Circle implements geometricShape {
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public double calculateArea() {
+        return Math.PI * radius * radius;
+    }
+
+    @Override
+    public double calculatePerimeter() {
+        return 2 * Math.PI * radius;
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Circle Radius: " + radius);
+        System.out.println("Circle Area: " + calculateArea());
+        System.out.println("Circle Perimeter: " + calculatePerimeter());
+    }
+
+    public static void main(String[] args) {
+        Circle circle = new Circle(5);
+        circle.display();
+    }
+}

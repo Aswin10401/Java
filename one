@@ -1,0 +1,14 @@
+package week2.one
+
+public class NamingConvention {
+
+    // To Name a Class and interface follow pascal Case i.e every word shold start with a capital letter
+
+    //packages should be in lowercase with no letters or special characters
+
+    // variables , Methods or Functions should be in camel case i.e first word should be in small letter and every other word should start with a capital letter
+
+    //constants should be in uppercase with underscore between words
+
+    
+}

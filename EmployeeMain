@@ -1,0 +1,10 @@
+public class EmployeeMain {
+    public static void main(String[] args) {
+        Employee ram = new Employee();
+        ram.seteID(101);
+        ram.setsalary(10000);
+
+        System.out.println("Employee ID: " + ram.geteID());
+        System.out.println("Employee Salary: " + ram.getsalary());
+    }
+}

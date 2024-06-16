@@ -1,0 +1,19 @@
+public class objectsnclasses {
+    public static void main(String[] args) {
+        long eID;
+        double salary;
+
+        void seteID(long eID) {
+            this.eID = eID;
+        }
+
+        void setsalary(double salary) {
+            this.salary = salary;
+        }
+
+        long geteID() {
+            return eID;
+        }
+        
+        //syntax: classname objectname = new classname();
+        //classname objectname = new classname();
